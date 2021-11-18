@@ -6,6 +6,21 @@
   border-radius: 10px;
 }
 
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 30 px auto;
+}
+
+.clearfix strong {
+  font-size: 40px;
+}
+
+.clearfix span {
+  position: relative;
+  font-size: 16px;
+  top: -20px;
+}
+
 h1 {
   color: darkslateblue;
   font-size: 25px;
