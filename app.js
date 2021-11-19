@@ -101,6 +101,9 @@ function displayFahrenheitTemperature(event){
     temperatureElement.innerHTML = Math.round(fahrenheitTemperature);
 }
 
+let fahrenheitTemperature = null;
+
+
 
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
